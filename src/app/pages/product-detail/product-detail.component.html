@@ -1,0 +1,263 @@
+<div class="product-detail-page" *ngIf="product">
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a routerLink="/">Home</a> / 
+      <a routerLink="/shop">Shop</a> / 
+      <span>{{ product.name }}</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="product-detail-grid">
+      <div class="product-images">
+        <div class="image-thumbnails">
+          <img *ngFor="let img of getProductImages()" 
+               [src]="img" 
+               [alt]="product.name" 
+               (click)="selectedImage = img"
+               [class.active]="selectedImage === img"
+               onerror="this.src='assets/images/placeholder.jpg'">
+        </div>
+        <div class="main-image">
+          <img [src]="selectedImage" [alt]="product.name" onerror="this.src='assets/images/placeholder.jpg'">
+          <div class="zoom-icon">
+            <i class="fas fa-search-plus"></i>
+          </div>
+          <span class="badge badge-hot" *ngIf="product.isHot">HOT</span>
+          <span class="badge badge-new" *ngIf="product.isNew">NEW</span>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <h1 class="product-title">{{ product.name }}</h1>
+
+        <div class="product-rating">
+          <div class="stars">
+            <i class="fas fa-star" *ngFor="let star of [1,2,3,4,5]" 
+               [class.filled]="star <= product.rating"></i>
+          </div>
+          <span class="rating-text">Rated {{ product.rating }} out of 5</span>
+        </div>
+
+        <div class="product-short-desc">
+          <p>{{ product.aboutProduct || product.description }}</p>
+        </div>
+
+        <div class="product-pricing">
+          <div class="price-wrapper">
+            <span class="current-price">₹{{ product.price }}</span>
+            <span class="original-price" *ngIf="product.originalPrice">₹{{ product.originalPrice }}</span>
+            <span class="discount-badge" *ngIf="getDiscountPercentage()">-{{ getDiscountPercentage() }}% OFF</span>
+          </div>
+        </div>
+
+        <div class="product-stock" [class.out-of-stock]="!product.inStock">
+          <i class="fas" [class.fa-check-circle]="product.inStock" 
+             [class.fa-times-circle]="!product.inStock"></i>
+          {{ product.inStock ? 'In stock' : 'Out of Stock' }}
+        </div>
+
+        <div class="product-actions">
+          <div class="quantity-selector">
+            <button (click)="decreaseQuantity()" [disabled]="quantity <= 1">-</button>
+            <input type="number" [(ngModel)]="quantity" min="1" readonly>
+            <button (click)="increaseQuantity()">+</button>
+          </div>
+
+          <button class="btn btn-primary add-to-cart-btn" 
+                  (click)="addToQuote()"
+                  [disabled]="!product.inStock">
+            ADD TO QUOTE
+          </button>
+        </div>
+
+        <div class="product-additional-actions">
+          <button class="btn-link" (click)="toggleWishlist()">
+            <i class="fas fa-heart" [class.active]="isInWishlist()"></i> Add to wishlist
+          </button>
+          <button class="btn-link">
+            <i class="fas fa-exchange-alt"></i> Compare
+          </button>
+        </div>
+
+        <div class="product-meta">
+          <div class="meta-row">
+            <span class="meta-label">Category:</span>
+            <a [routerLink]="['/category', getCategorySlug()]">{{ product.category }}</a>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">Brand:</span>
+            <span>{{ product.brand }}</span>
+          </div>
+        </div>
+
+        <div class="product-share">
+          <span>Share:</span>
+          <a href="#" class="share-btn"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="share-btn"><i class="fas fa-envelope"></i></a>
+          <a href="#" class="share-btn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="share-btn"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Description Tabs -->
+    <div class="product-tabs">
+      <div class="tabs-header">
+        <button class="tab-btn active" (click)="activeTab = 'description'" [class.active]="activeTab === 'description'">
+          Description
+        </button>
+        <button class="tab-btn" (click)="activeTab = 'additional'" [class.active]="activeTab === 'additional'">
+          Additional information
+        </button>
+        <button class="tab-btn" (click)="activeTab = 'reviews'" [class.active]="activeTab === 'reviews'">
+          Reviews (0)
+        </button>
+      </div>
+
+      <div class="tabs-content">
+        <div class="tab-panel" *ngIf="activeTab === 'description'">
+          <!-- Display description first, then aboutProduct if available -->
+          <div *ngIf="product.id === '2'">
+            <p>This 2WD Mini Round Double-Deck Smart Robot Car Chassis DIY Kit Cool and very easy to assemble robot kit. With this car platform, you can add some micro-controller and sensor modules, and program it to build your own robot car.</p>
+            <p>This kit comes with Round shape chassis, Motors, wheels and all required assembly parts to build a complete robot car.</p>
+          </div>
+          <div *ngIf="product.id === '3'">
+            <p>4WD Mecanum Wheel Robot Car Chassis Kit with Aluminum Alloy Frame. This omni-directional mobile robot platform allows movement in any direction including sideways and diagonal motion.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+              <li>High-quality aluminum alloy chassis construction</li>
+              <li>4 x Mecanum wheels for omni-directional movement</li>
+              <li>4 x 12V DC motors with encoder support</li>
+              <li>Durable and stable platform design</li>
+              <li>Perfect for robotics projects, competitions, and research</li>
+              <li>Easy to assemble with detailed instructions</li>
+            </ul>
+            <p>This kit comes with all necessary mounting hardware, motors, and mecanum wheels to build a complete omni-directional robot platform.</p>
+          </div>
+          <div *ngIf="product.id === '6'">
+            <p>Make your own car which is run by a rotating fan. This kit enables us to demonstrate Newton's third law of motion i.e. "Every Action has an equal and opposite Reaction".</p>
+            <p><strong>Working Principle:</strong> Newton's Third Law of Motion</p>
+            <p>This educational DIY kit is perfect for students to learn about basic physics principles while building a fun air-powered vehicle.</p>
+          </div>
+          <div *ngIf="product.id !== '2' && product.id !== '3' && product.id !== '6'">
+            <p *ngIf="!product.aboutProduct">{{ product.description }}</p>
+            <div *ngIf="product.aboutProduct" [innerHTML]="product.aboutProduct" style="white-space: pre-line;"></div>
+          </div>
+        </div>
+
+        <div class="tab-panel" *ngIf="activeTab === 'additional'">
+          <table class="specifications-table" *ngIf="product.id === '2'">
+            <tbody>
+              <tr>
+                <td class="spec-label">Round Plate Diameter</td>
+                <td class="spec-value">135 mm</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Square Plate Size</td>
+                <td class="spec-value">135 x 90 mm</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Wheel Size (D x W) mm</td>
+                <td class="spec-value">65 x 25 grip</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Motor Operating Voltage</td>
+                <td class="spec-value">3 to 6V DC</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Motor Rated RPM</td>
+                <td class="spec-value">No Load Speed (3V) 90RPM +-10%</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="specifications-table" *ngIf="product.id === '3'">
+            <tbody>
+              <tr>
+                <td class="spec-label">Chassis Material</td>
+                <td class="spec-value">Aluminum Alloy</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Wheel Type</td>
+                <td class="spec-value">Mecanum Wheel (4WD)</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Wheel Diameter</td>
+                <td class="spec-value">100mm</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Motor Voltage</td>
+                <td class="spec-value">12V DC</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Chassis Dimensions</td>
+                <td class="spec-value">250 x 200 x 80 mm</td>
+              </tr>
+              <tr>
+                <td class="spec-label">Load Capacity</td>
+                <td class="spec-value">Up to 10 kg</td>
+              </tr>
+            </tbody>
+          </table>
+          <p *ngIf="product.id !== '2' && product.id !== '3'">No additional information available.</p>
+        </div>
+
+        <div class="tab-panel reviews-panel" *ngIf="activeTab === 'reviews'">
+          <div class="reviews-container">
+            <div class="reviews-left">
+              <h3>REVIEWS</h3>
+              <p class="no-reviews">There are no reviews yet.</p>
+            </div>
+            <div class="reviews-right">
+              <h4 class="review-form-title">BE THE FIRST TO REVIEW "{{ product.name }}"</h4>
+              <p class="review-note">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+              
+              <form class="review-form" (submit)="submitReview($event)">
+                <div class="form-group">
+                  <label>Your rating <span class="required">*</span></label>
+                  <div class="star-rating">
+                    <i class="far fa-star" 
+                       *ngFor="let star of [1,2,3,4,5]" 
+                       [class.fas]="reviewRating >= star"
+                       [class.far]="reviewRating < star"
+                       (click)="setRating(star)"></i>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Your review <span class="required">*</span></label>
+                  <textarea [(ngModel)]="reviewText" name="review" rows="8" required></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label>Name <span class="required">*</span></label>
+                  <input type="text" [(ngModel)]="reviewName" name="name" required>
+                </div>
+
+                <div class="form-group">
+                  <label>Email <span class="required">*</span></label>
+                  <input type="email" [(ngModel)]="reviewEmail" name="email" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary submit-review-btn">SUBMIT</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="no-product" *ngIf="!product">
+  <div class="container">
+    <i class="fas fa-exclamation-triangle"></i>
+    <h2>Product Not Found</h2>
+    <p>The product you are looking for does not exist.</p>
+    <a routerLink="/shop" class="btn btn-primary">Back to Shop</a>
+  </div>
+</div>
+
+<!-- Auth Modal -->
+<app-auth-modal *ngIf="showAuthModal" [message]="authModalMessage" (close)="closeAuthModal()"></app-auth-modal>

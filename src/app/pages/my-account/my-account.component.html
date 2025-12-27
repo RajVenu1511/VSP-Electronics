@@ -1,0 +1,49 @@
+<div class="my-account-container">
+  <!-- Account Dashboard -->
+  <div class="account-dashboard" *ngIf="isLoggedIn && currentUser">
+    <div class="dashboard-header">
+      <h1>My Account</h1>
+      <button class="btn btn-secondary" (click)="onLogout()">
+        <i class="fas fa-sign-out-alt"></i> Logout
+      </button>
+    </div>
+
+    <div class="user-info">
+      <div class="info-card">
+        <h2>Account Information</h2>
+        <div class="info-row">
+          <span class="label">Name:</span>
+          <span class="value">{{ currentUser.name }}</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Email:</span>
+          <span class="value">{{ currentUser.email }}</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Phone:</span>
+          <span class="value">{{ currentUser.phone || 'Not provided' }}</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Member Since:</span>
+          <span class="value">{{ currentUser.createdAt | date:'mediumDate' }}</span>
+        </div>
+      </div>
+
+      <div class="quick-links">
+        <h2>Quick Links</h2>
+        <a routerLink="/wishlist" class="quick-link">
+          <i class="fas fa-heart"></i> My Wishlist
+        </a>
+        <a routerLink="/cart" class="quick-link">
+          <i class="fas fa-shopping-cart"></i> My Cart
+        </a>
+        <a routerLink="/compare" class="quick-link">
+          <i class="fas fa-balance-scale"></i> Compare Products
+        </a>
+        <a routerLink="/quote" class="quick-link">
+          <i class="fas fa-file-invoice"></i> Request Quote
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

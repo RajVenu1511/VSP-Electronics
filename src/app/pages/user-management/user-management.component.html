@@ -1,0 +1,278 @@
+<div class="user-management">
+  <!-- Header -->
+  <div class="page-header">
+    <div class="header-left">
+      <h1><i class="fas fa-users-cog"></i> User Management</h1>
+      <p>Monitor and manage all registered users</p>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-success" (click)="openNotificationModal()" 
+              [disabled]="selectedUsers.size === 0">
+        <i class="fas fa-bell"></i> Send Notification ({{ selectedUsers.size }})
+      </button>
+      <button class="btn btn-secondary" (click)="exportToCSV()">
+        <i class="fas fa-download"></i> Export CSV
+      </button>
+    </div>
+  </div>
+
+  <!-- Stats Overview -->
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="stat-icon blue">
+        <i class="fas fa-users"></i>
+      </div>
+      <div class="stat-info">
+        <h3>{{ users.length }}</h3>
+        <p>Total Users</p>
+      </div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon green">
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="stat-info">
+        <h3>{{ getPremiumUsersCount() }}</h3>
+        <p>Premium Users (A+/A)</p>
+      </div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon orange">
+        <i class="fas fa-shopping-bag"></i>
+      </div>
+      <div class="stat-info">
+        <h3>{{ getTotalPurchases() }}</h3>
+        <p>Total Purchases</p>
+      </div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon purple">
+        <i class="fas fa-rupee-sign"></i>
+      </div>
+      <div class="stat-info">
+        <h3>{{ formatCurrency(getTotalRevenue()) }}</h3>
+        <p>Total Revenue</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filters and Search -->
+  <div class="filters-section">
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input 
+        type="text" 
+        [(ngModel)]="searchTerm" 
+        (input)="onSearch()"
+        placeholder="Search by name, email, or phone...">
+    </div>
+    
+    <div class="filter-controls">
+      <label>Items per page:</label>
+      <select [(ngModel)]="itemsPerPage" (change)="onSearch()">
+        <option [value]="5">5</option>
+        <option [value]="10">10</option>
+        <option [value]="25">25</option>
+        <option [value]="50">50</option>
+        <option [value]="100">100</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Users Table -->
+  <div class="table-container">
+    <table class="users-table">
+      <thead>
+        <tr>
+          <th class="checkbox-cell">
+            <input 
+              type="checkbox" 
+              [checked]="selectAll" 
+              (change)="toggleSelectAll()">
+          </th>
+          <th (click)="sortTable('name')" class="sortable">
+            Name 
+            <i class="fas" [class.fa-sort-up]="sortBy === 'name' && sortOrder === 'asc'"
+                           [class.fa-sort-down]="sortBy === 'name' && sortOrder === 'desc'"
+                           [class.fa-sort]="sortBy !== 'name'"></i>
+          </th>
+          <th (click)="sortTable('email')" class="sortable">
+            Email
+            <i class="fas" [class.fa-sort-up]="sortBy === 'email' && sortOrder === 'asc'"
+                           [class.fa-sort-down]="sortBy === 'email' && sortOrder === 'desc'"
+                           [class.fa-sort]="sortBy !== 'email'"></i>
+          </th>
+          <th>Phone</th>
+          <th (click)="sortTable('grade')" class="sortable">
+            Grade
+            <i class="fas" [class.fa-sort-up]="sortBy === 'grade' && sortOrder === 'asc'"
+                           [class.fa-sort-down]="sortBy === 'grade' && sortOrder === 'desc'"
+                           [class.fa-sort]="sortBy !== 'grade'"></i>
+          </th>
+          <th (click)="sortTable('purchases')" class="sortable">
+            Purchases
+            <i class="fas" [class.fa-sort-up]="sortBy === 'purchases' && sortOrder === 'asc'"
+                           [class.fa-sort-down]="sortBy === 'purchases' && sortOrder === 'desc'"
+                           [class.fa-sort]="sortBy !== 'purchases'"></i>
+          </th>
+          <th (click)="sortTable('amount')" class="sortable">
+            Total Amount
+            <i class="fas" [class.fa-sort-up]="sortBy === 'amount' && sortOrder === 'asc'"
+                           [class.fa-sort-down]="sortBy === 'amount' && sortOrder === 'desc'"
+                           [class.fa-sort]="sortBy !== 'amount'"></i>
+          </th>
+          <th (click)="sortTable('activity')" class="sortable">
+            Activity Days
+            <i class="fas" [class.fa-sort-up]="sortBy === 'activity' && sortOrder === 'asc'"
+                           [class.fa-sort-down]="sortBy === 'activity' && sortOrder === 'desc'"
+                           [class.fa-sort]="sortBy !== 'activity'"></i>
+          </th>
+          <th>Last Purchase</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let userAnalytics of getPaginatedUsers()">
+          <td class="checkbox-cell">
+            <input 
+              type="checkbox" 
+              [checked]="isSelected(userAnalytics.user.id)"
+              (change)="toggleUserSelection(userAnalytics.user.id)">
+          </td>
+          <td>
+            <div class="user-info">
+              <div class="user-avatar">
+                {{ userAnalytics.user.name.charAt(0).toUpperCase() }}
+              </div>
+              <span>{{ userAnalytics.user.name }}</span>
+            </div>
+          </td>
+          <td>{{ userAnalytics.user.email }}</td>
+          <td>{{ userAnalytics.user.phone }}</td>
+          <td>
+            <span class="grade-badge" [style.background-color]="userAnalytics.gradeColor">
+              {{ userAnalytics.overallGrade }}
+            </span>
+          </td>
+          <td class="text-center">
+            <span class="badge-count">{{ userAnalytics.totalPurchases }}</span>
+          </td>
+          <td class="text-right">
+            <strong>{{ formatCurrency(userAnalytics.totalAmount) }}</strong>
+          </td>
+          <td class="text-center">
+            <span class="activity-badge">{{ userAnalytics.activityDays }}</span>
+          </td>
+          <td>{{ formatDate(userAnalytics.lastPurchaseDate) }}</td>
+          <td>
+            <div class="action-buttons">
+              <button class="btn-icon" title="View Details" (click)="viewUserDetails(userAnalytics.user)">
+                <i class="fas fa-eye"></i>
+              </button>
+              <button class="btn-icon" title="Send Message" (click)="toggleUserSelection(userAnalytics.user.id); openNotificationModal()">
+                <i class="fas fa-envelope"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- No Results -->
+    <div class="no-results" *ngIf="filteredUsers.length === 0">
+      <i class="fas fa-user-slash"></i>
+      <h3>No users found</h3>
+      <p>Try adjusting your search criteria</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="pagination" *ngIf="totalPages > 1">
+    <button 
+      class="page-btn" 
+      (click)="changePage(1)" 
+      [disabled]="currentPage === 1">
+      <i class="fas fa-angle-double-left"></i>
+    </button>
+    <button 
+      class="page-btn" 
+      (click)="changePage(currentPage - 1)" 
+      [disabled]="currentPage === 1">
+      <i class="fas fa-angle-left"></i>
+    </button>
+    
+    <button 
+      *ngFor="let page of getPageNumbers()" 
+      class="page-btn"
+      [class.active]="page === currentPage"
+      (click)="changePage(page)">
+      {{ page }}
+    </button>
+    
+    <button 
+      class="page-btn" 
+      (click)="changePage(currentPage + 1)" 
+      [disabled]="currentPage === totalPages">
+      <i class="fas fa-angle-right"></i>
+    </button>
+    <button 
+      class="page-btn" 
+      (click)="changePage(totalPages)" 
+      [disabled]="currentPage === totalPages">
+      <i class="fas fa-angle-double-right"></i>
+    </button>
+    
+    <span class="page-info">
+      Page {{ currentPage }} of {{ totalPages }} | Total: {{ filteredUsers.length }} users
+    </span>
+  </div>
+</div>
+
+<!-- Push Notification Modal -->
+<div class="modal-backdrop" *ngIf="showNotificationModal" (click)="closeNotificationModal()">
+  <div class="modal-content notification-modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2><i class="fas fa-bell"></i> Send Push Notification</h2>
+      <button class="close-btn" (click)="closeNotificationModal()">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="modal-body">
+      <div class="notification-info">
+        <i class="fas fa-info-circle"></i>
+        <span>Sending to <strong>{{ selectedUsers.size }}</strong> selected user(s)</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="notif-title">Notification Title *</label>
+        <input 
+          type="text" 
+          id="notif-title"
+          [(ngModel)]="notificationTitle"
+          placeholder="Enter notification title"
+          maxlength="100">
+      </div>
+      
+      <div class="form-group">
+        <label for="notif-message">Message *</label>
+        <textarea 
+          id="notif-message"
+          [(ngModel)]="notificationMessage"
+          placeholder="Enter your message..."
+          rows="5"
+          maxlength="500"></textarea>
+        <small>{{ notificationMessage.length }}/500 characters</small>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+      <button class="btn btn-secondary" (click)="closeNotificationModal()">
+        Cancel
+      </button>
+      <button class="btn btn-primary" (click)="sendNotification()">
+        <i class="fas fa-paper-plane"></i> Send Notification
+      </button>
+    </div>
+  </div>
+</div>

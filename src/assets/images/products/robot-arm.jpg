@@ -1,0 +1,9 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#c0392b"/>
+  <text x="50%" y="45%" text-anchor="middle" dy=".3em" font-family="Arial, sans-serif" font-size="20" fill="white" font-weight="bold">
+    Robot Arm
+  </text>
+  <text x="50%" y="55%" text-anchor="middle" dy=".3em" font-family="Arial, sans-serif" font-size="16" fill="white">
+    5-DOF Kit
+  </text>
+</svg>

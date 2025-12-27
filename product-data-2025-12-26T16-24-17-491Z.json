@@ -1,0 +1,1582 @@
+{
+  "success": [],
+  "failed": [
+    {
+      "id": "37",
+      "name": "PROP CW AND CCW 3090 Propeller without adapter",
+      "url": "https://www.agarwalelectronics.com/product/prop-cw-and-ccw-3090-propeller-without-adapter/"
+    },
+    {
+      "id": "78",
+      "name": "FS-i6 X 2.4GHz 10CH Transmitter",
+      "error": "socket hang up"
+    },
+    {
+      "id": "7",
+      "name": "BATTERY",
+      "url": "https://www.agarwalelectronics.com/product/battery/"
+    },
+    {
+      "id": "1",
+      "name": "ACEBOTT",
+      "url": "https://www.agarwalelectronics.com/product/acebott/"
+    },
+    {
+      "id": "2",
+      "name": "Amass",
+      "url": "https://www.agarwalelectronics.com/product/amass/"
+    },
+    {
+      "id": "3",
+      "name": "Arduino",
+      "url": "https://www.agarwalelectronics.com/product/arduino/"
+    },
+    {
+      "id": "4",
+      "name": "BONKA",
+      "url": "https://www.agarwalelectronics.com/product/bonka/"
+    },
+    {
+      "id": "5",
+      "name": "EFT",
+      "url": "https://www.agarwalelectronics.com/product/eft/"
+    },
+    {
+      "id": "7",
+      "name": "EMAX",
+      "url": "https://www.agarwalelectronics.com/product/emax/"
+    },
+    {
+      "id": "8",
+      "name": "Hobbywing",
+      "url": "https://www.agarwalelectronics.com/product/hobbywing/"
+    },
+    {
+      "id": "9",
+      "name": "JIYI",
+      "url": "https://www.agarwalelectronics.com/product/jiyi/"
+    },
+    {
+      "id": "10",
+      "name": "Mastech",
+      "url": "https://www.agarwalelectronics.com/product/mastech/"
+    },
+    {
+      "id": "11",
+      "name": "Raspberry Pi",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi/"
+    },
+    {
+      "id": "12",
+      "name": "SKYDROID",
+      "url": "https://www.agarwalelectronics.com/product/skydroid/"
+    },
+    {
+      "id": "13",
+      "name": "SKYRC",
+      "url": "https://www.agarwalelectronics.com/product/skyrc/"
+    },
+    {
+      "id": "14",
+      "name": "TATTU",
+      "url": "https://www.agarwalelectronics.com/product/tattu/"
+    }
+  ],
+  "notFound": [
+    {
+      "id": "1",
+      "name": "14 in 1 Educational DIY Solar Transformers Robot Toy",
+      "url": "https://www.agarwalelectronics.com/product/14-in-1-educational-diy-solar-transformers-robot-toy/"
+    },
+    {
+      "id": "2",
+      "name": "2 WHEEL ROUND KIT",
+      "url": "https://www.agarwalelectronics.com/product/2-wheel-round-kit/"
+    },
+    {
+      "id": "3",
+      "name": "4WD Mecannum wheels Normal Chassis Kit",
+      "url": "https://www.agarwalelectronics.com/product/4wd-mecannum-wheels-normal-chassis-kit/"
+    },
+    {
+      "id": "4",
+      "name": "Aluminium Alloy 2WD Kit",
+      "url": "https://www.agarwalelectronics.com/product/aluminium-alloy-2wd-kit/"
+    },
+    {
+      "id": "5",
+      "name": "DIY BLUETOOTH CONTROLLED ROBOT",
+      "url": "https://www.agarwalelectronics.com/product/diy-bluetooth-controlled-robot/"
+    },
+    {
+      "id": "6",
+      "name": "DIY KIT – AIR CAR (ROD3)",
+      "url": "https://www.agarwalelectronics.com/product/diy-kit-air-car-rod3/"
+    },
+    {
+      "id": "7",
+      "name": "DIY KIT – WIND URJA ROD5",
+      "url": "https://www.agarwalelectronics.com/product/diy-kit-wind-urja-rod5/"
+    },
+    {
+      "id": "8",
+      "name": "Diy Kit 16No Tank",
+      "url": "https://www.agarwalelectronics.com/product/diy-kit-16no-tank/"
+    },
+    {
+      "id": "9",
+      "name": "DIY KIT SCAN MACHINE ( ROD4)",
+      "url": "https://www.agarwalelectronics.com/product/diy-kit-scan-machine-rod4/"
+    },
+    {
+      "id": "10",
+      "name": "DIY KIT STANDARD ROBOT KIT (ROD11)",
+      "url": "https://www.agarwalelectronics.com/product/diy-kit-standard-robot-kit-rod11/"
+    },
+    {
+      "id": "11",
+      "name": "DIY LINE FOLLOWER ROBOT",
+      "url": "https://www.agarwalelectronics.com/product/diy-line-follower-robot/"
+    },
+    {
+      "id": "12",
+      "name": "DIY OBSTACLE AVOIDANCE ROBOT",
+      "url": "https://www.agarwalelectronics.com/product/diy-obstacle-avoidance-robot/"
+    },
+    {
+      "id": "13",
+      "name": "DIY RF CONTROLLED ROBOT",
+      "url": "https://www.agarwalelectronics.com/product/diy-rf-controlled-robot/"
+    },
+    {
+      "id": "14",
+      "name": "DIY Wind Mill (ROD 68)",
+      "url": "https://www.agarwalelectronics.com/product/diy-wind-mill-rod-68/"
+    },
+    {
+      "id": "14a",
+      "name": "DIY MINI DRONE WITH WIFI CAMERA",
+      "url": "https://www.agarwalelectronics.com/product/diy-mini-drone-with-wifi-camera/"
+    },
+    {
+      "id": "14b",
+      "name": "DM002 DIY DRONE KIT",
+      "url": "https://www.agarwalelectronics.com/product/dm002-diy-drone-kit/"
+    },
+    {
+      "id": "14c",
+      "name": "XYQ2 DRONE KIT",
+      "url": "https://www.agarwalelectronics.com/product/xyq2-drone-kit/"
+    },
+    {
+      "id": "15",
+      "name": "Centrifugal Nozzle Spray System for Agriculture Drone",
+      "url": "https://www.agarwalelectronics.com/product/centrifugal-nozzle-spray-system-for-agriculture-drone/"
+    },
+    {
+      "id": "16",
+      "name": "Drone Nozzle 110 Degree 20mm Double",
+      "url": "https://www.agarwalelectronics.com/product/drone-nozzle-110-degree-20mm-double/"
+    },
+    {
+      "id": "17",
+      "name": "Drone Spray Nozzle 3810",
+      "url": "https://www.agarwalelectronics.com/product/drone-spray-nozzle-3810/"
+    },
+    {
+      "id": "18",
+      "name": "Drone Spray NOZZLE DOUBLE HEAD",
+      "url": "https://www.agarwalelectronics.com/product/drone-spray-nozzle-double-head/"
+    },
+    {
+      "id": "19",
+      "name": "EFT E410P 10L 4 Axis Agricultural Drone Frame",
+      "url": "https://www.agarwalelectronics.com/product/eft-e410p-10l-4-axis-agricultural-drone-frame/"
+    },
+    {
+      "id": "20",
+      "name": "H16 RC Skydroid",
+      "url": "https://www.agarwalelectronics.com/product/h16-rc-skydroid/"
+    },
+    {
+      "id": "21",
+      "name": "Hobbywing Pump 5L Kit with Nozzle",
+      "url": "https://www.agarwalelectronics.com/product/hobbywing-pump-5l-kit-with-nozzle/"
+    },
+    {
+      "id": "22",
+      "name": "Hobbywing Pump 5L Kit with Nozzle ( Y Type)",
+      "url": "https://www.agarwalelectronics.com/product/hobbywing-pump-5l-kit-with-nozzle-y-type/"
+    },
+    {
+      "id": "23",
+      "name": "hobbywing x6plus motor combo CCW",
+      "url": "https://www.agarwalelectronics.com/product/hobbywing-x6plus-motor-combo-ccw/"
+    },
+    {
+      "id": "24",
+      "name": "hobbywing X8 100kv combo 35mm CW / CCW",
+      "url": "https://www.agarwalelectronics.com/product/hobbywing-x8-100kv-combo-35mm-cw-ccw/"
+    },
+    {
+      "id": "25",
+      "name": "Hobbywing XRotor X6 Plus Motor and X6 Plus 2388 or 2480 Folding Propeller Combo Kit – CW",
+      "url": "https://www.agarwalelectronics.com/product/hobbywing-xrotor-x6-plus-motor-and-x6-plus-2388-or-2480-folding-propeller-combo-kit-cw/"
+    },
+    {
+      "id": "26",
+      "name": "JIYI FLOW METER",
+      "url": "https://www.agarwalelectronics.com/product/jiyi-flow-meter/"
+    },
+    {
+      "id": "27",
+      "name": "Jiyi K++ V2 Flight Controller Kit",
+      "url": "https://www.agarwalelectronics.com/product/jiyi-k-v2-flight-controller-kit/"
+    },
+    {
+      "id": "28",
+      "name": "Jiyi K3 Apro Flight Controller Kit",
+      "url": "https://www.agarwalelectronics.com/product/jiyi-k3-apro-flight-controller-kit/"
+    },
+    {
+      "id": "29",
+      "name": "MK15 RC",
+      "url": "https://www.agarwalelectronics.com/product/mk15-rc/"
+    },
+    {
+      "id": "30",
+      "name": "PROP 2388 CCW-CW – Without Pad Set of 2 Compatible",
+      "url": "https://www.agarwalelectronics.com/product/prop-2388-ccw-cw-without-pad-set-of-2-compatible/"
+    },
+    {
+      "id": "31",
+      "name": "PROP 2480 CCW-CW – Without Pad Set of 2 Compatible",
+      "url": "https://www.agarwalelectronics.com/product/prop-2480-ccw-cw-without-pad-set-of-2-compatible/"
+    },
+    {
+      "id": "32",
+      "name": "PROP 3011 CCW-CW – Without Pad Set of 2 Compatible",
+      "url": "https://www.agarwalelectronics.com/product/prop-3011-ccw-cw-without-pad-set-of-2-compatible/"
+    },
+    {
+      "id": "33",
+      "name": "PROP 3011 with Paddle Org HB (Cw/Ccw)",
+      "url": "https://www.agarwalelectronics.com/product/prop-3011-with-paddle-org-hb-cwccw/"
+    },
+    {
+      "id": "34",
+      "name": "PROP 3090 CCW-CW – Without Pad Set of 2 Compatible",
+      "url": "https://www.agarwalelectronics.com/product/prop-3090-ccw-cw-without-pad-set-of-2-compatible/"
+    },
+    {
+      "id": "35",
+      "name": "Prop 3411 with Clips Ccw And Cw",
+      "url": "https://www.agarwalelectronics.com/product/prop-3411-with-clips-ccw-and-cw/"
+    },
+    {
+      "id": "36",
+      "name": "Prop 41135 with Clips Cw And Ccw",
+      "url": "https://www.agarwalelectronics.com/product/prop-41135-with-clips-cw-and-ccw/"
+    },
+    {
+      "id": "38",
+      "name": "SKYDROID T10 Remote Controller",
+      "url": "https://www.agarwalelectronics.com/product/skydroid-t10-remote-controller/"
+    },
+    {
+      "id": "39",
+      "name": "SKYRC Charger PC1500W",
+      "url": "https://www.agarwalelectronics.com/product/skyrc-charger-pc1500w/"
+    },
+    {
+      "id": "40",
+      "name": "T12 RC with Cam",
+      "url": "https://www.agarwalelectronics.com/product/t12-rc-with-cam/"
+    },
+    {
+      "id": "41",
+      "name": "TATTU Pro 44.4V 22000mAh Battery",
+      "url": "https://www.agarwalelectronics.com/product/tattu-pro-444v-22000mah-battery/"
+    },
+    {
+      "id": "42",
+      "name": "X11+41135 CCW",
+      "url": "https://www.agarwalelectronics.com/product/x1141135-ccw/"
+    },
+    {
+      "id": "43",
+      "name": "X11+41135 CW",
+      "url": "https://www.agarwalelectronics.com/product/x1141135-cw/"
+    },
+    {
+      "id": "44",
+      "name": "X9plus +36190 CCW",
+      "url": "https://www.agarwalelectronics.com/product/x9plus-36190-ccw/"
+    },
+    {
+      "id": "45",
+      "name": "X9plus +36190 CW",
+      "url": "https://www.agarwalelectronics.com/product/x9plus-36190-cw/"
+    },
+    {
+      "id": "46",
+      "name": "Project Ready Automatic Street Light",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-automatic-street-light/"
+    },
+    {
+      "id": "47",
+      "name": "PROJECT READY BT SURVEILLANCE ROBOT",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-bt-surveillance-robot/"
+    },
+    {
+      "id": "48",
+      "name": "Project Ready Iot Air Quality",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-air-quality/"
+    },
+    {
+      "id": "49",
+      "name": "Project Ready Iot Energy Montioring and Management",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-energy-montioring-and-management/"
+    },
+    {
+      "id": "50",
+      "name": "PROJECT READY IOT FOOD QUALITY MONITORING SYSTEM",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-food-quality-monitoring-system/"
+    },
+    {
+      "id": "51",
+      "name": "Project Ready Iot Home Automation",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-home-automation/"
+    },
+    {
+      "id": "52",
+      "name": "Project Ready Iot Patient Healthcare",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-patient-healthcare/"
+    },
+    {
+      "id": "53",
+      "name": "Project Ready Iot Rfid Attendance",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-rfid-attendance/"
+    },
+    {
+      "id": "54",
+      "name": "Project Ready Iot Rfid Authorisation",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-rfid-authorisation/"
+    },
+    {
+      "id": "55",
+      "name": "Project Ready Iot Smart Irrigation",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-smart-irrigation/"
+    },
+    {
+      "id": "56",
+      "name": "Project Ready Iot Smart Lighting Control",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-smart-lighting-control/"
+    },
+    {
+      "id": "57",
+      "name": "Project Ready Iot Traffic Light Control",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-traffic-light-control/"
+    },
+    {
+      "id": "58",
+      "name": "Project Ready Iot Waste Management",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-waste-management/"
+    },
+    {
+      "id": "59",
+      "name": "Project Ready Iot Waterquality",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-iot-waterquality/"
+    },
+    {
+      "id": "60",
+      "name": "Project Ready OBSTACLE AVOIDING ROBOT",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-obstacle-avoiding-robot/"
+    },
+    {
+      "id": "61",
+      "name": "project ready RFID BASED DOOR LOCK",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-rfid-based-door-lock/"
+    },
+    {
+      "id": "62",
+      "name": "Project Ready SINGLE AXIS SOLAR TRACKER",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-single-axis-solar-tracker/"
+    },
+    {
+      "id": "63",
+      "name": "Project Ready UNDERGROUND CABLE FAULT DETECTOR",
+      "url": "https://www.agarwalelectronics.com/product/project-ready-underground-cable-fault-detector/"
+    },
+    {
+      "id": "64",
+      "name": "Project WIRELESS BATTERY VOLTAGE MONITORING FOR EV",
+      "url": "https://www.agarwalelectronics.com/product/project-wireless-battery-voltage-monitoring-for-ev/"
+    },
+    {
+      "id": "65",
+      "name": "3 in 1 Aluminum Heat Sink Set for Raspberry Pi 3/4",
+      "url": "https://www.agarwalelectronics.com/product/3-in-1-aluminum-heat-sink-set-for-raspberry-pi-34/"
+    },
+    {
+      "id": "66",
+      "name": "3.2 Inch TFT LCD Touch Screen Display V4.0",
+      "url": "https://www.agarwalelectronics.com/product/32-inch-tft-lcd-touch-screen-display-v40/"
+    },
+    {
+      "id": "67",
+      "name": "40 Pin Red GPIO Extension Board",
+      "url": "https://www.agarwalelectronics.com/product/40-pin-red-gpio-extension-board/"
+    },
+    {
+      "id": "68",
+      "name": "5MP CAMERA FOR RASPBERRY PI",
+      "url": "https://www.agarwalelectronics.com/product/5mp-camera-for-raspberry-pi/"
+    },
+    {
+      "id": "69",
+      "name": "5MP Raspberry Pi 3/4 Model B Camera Module",
+      "url": "https://www.agarwalelectronics.com/product/5mp-raspberry-pi-34-model-b-camera-module/"
+    },
+    {
+      "id": "69a",
+      "name": "5MP Raspberry Pi Zero W Camera Module",
+      "url": "https://www.agarwalelectronics.com/product/5mp-raspberry-pi-zero-w-camera-module/"
+    },
+    {
+      "id": "70",
+      "name": "7″ Official Raspberry Pi Display with Capacitive Touchscreen",
+      "url": "https://www.agarwalelectronics.com/product/7-official-raspberry-pi-display-with-capacitive-touchscreen/"
+    },
+    {
+      "id": "71",
+      "name": "ADAPTOR PI4 TYPE C 15w",
+      "url": "https://www.agarwalelectronics.com/product/adaptor-pi4-type-c-15w/"
+    },
+    {
+      "id": "72",
+      "name": "ADAPTOR PI5 TYPE C 27w",
+      "url": "https://www.agarwalelectronics.com/product/adaptor-pi5-type-c-27w/"
+    },
+    {
+      "id": "73",
+      "name": "Aluminum Heat Sink Case with Double Fans for Raspberry Pi 4B",
+      "url": "https://www.agarwalelectronics.com/product/aluminum-heat-sink-case-with-double-fans-for-raspberry-pi-4b/"
+    },
+    {
+      "id": "73a",
+      "name": "Gold Aluminum Heat Sink Case with Double Fans",
+      "url": "https://www.agarwalelectronics.com/product/gold-aluminum-heat-sink-case-with-double-fans/"
+    },
+    {
+      "id": "74",
+      "name": "Black ABS Case for Raspberry Pi 3/3+ with Cooling FAN Vent",
+      "url": "https://www.agarwalelectronics.com/product/black-abs-case-for-raspberry-pi-33-with-cooling-fan-vent/"
+    },
+    {
+      "id": "74a",
+      "name": "Double Fans HS Set for Rpi4",
+      "url": "https://www.agarwalelectronics.com/product/double-fans-hs-set-for-rpi4/"
+    },
+    {
+      "id": "75",
+      "name": "DS3231 Real Time Clock Module 3.3V 5V Precise",
+      "url": "https://www.agarwalelectronics.com/product/ds3231-real-time-clock-module-33v-5v-precise/"
+    },
+    {
+      "id": "76",
+      "name": "HDMI Female to Mini HDMI Male Adapter",
+      "url": "https://www.agarwalelectronics.com/product/hdmi-female-to-mini-hdmi-male-adapter/"
+    },
+    {
+      "id": "76a",
+      "name": "Micro HDMI Male to HDMI Female Adapter",
+      "url": "https://www.agarwalelectronics.com/product/micro-hdmi-male-to-hdmi-female-adapter/"
+    },
+    {
+      "id": "76b",
+      "name": "HDMI Male to VGA Female Converter",
+      "url": "https://www.agarwalelectronics.com/product/hdmi-male-to-vga-female-converter/"
+    },
+    {
+      "id": "76c",
+      "name": "HDMI to VGA Converter with Audio",
+      "url": "https://www.agarwalelectronics.com/product/hdmi-to-vga-converter-with-audio/"
+    },
+    {
+      "id": "76d",
+      "name": "BeagleBone Black REV C",
+      "url": "https://www.agarwalelectronics.com/product/beaglebone-black-rev-c/"
+    },
+    {
+      "id": "76e",
+      "name": "MICRO HDMI TO HDMI CABLE",
+      "url": "https://www.agarwalelectronics.com/product/micro-hdmi-to-hdmi-cable/"
+    },
+    {
+      "id": "76f",
+      "name": "PCF8591 Module Analog to Digital Module Converter",
+      "url": "https://www.agarwalelectronics.com/product/pcf8591-module-analog-to-digital-module-converter/"
+    },
+    {
+      "id": "76g",
+      "name": "P30/25 15KG Lifting Solenoid Electromagnet",
+      "url": "https://www.agarwalelectronics.com/product/p3025-15kg-lifting-solenoid-electromagnet/"
+    },
+    {
+      "id": "76h",
+      "name": "Raspberry Pi 3 Case for Raspberry Pi 3 Model B, B+",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-3-case-for-raspberry-pi-3-model-b-b/"
+    },
+    {
+      "id": "77a",
+      "name": "Raspberry Pi 3 Model B+",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-3-model-b/"
+    },
+    {
+      "id": "77b",
+      "name": "Raspberry Pi 3-MODB-1GB Motherboard",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-3-modb-1gb-motherboard/"
+    },
+    {
+      "id": "77c",
+      "name": "Raspberry Pi 4 Black Compact ABS Case with Fan Slot",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-4-black-compact-abs-case-with-fan-slot/"
+    },
+    {
+      "id": "77d",
+      "name": "Raspberry Pi 4 Case-Black",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-4-case-black/"
+    },
+    {
+      "id": "77e",
+      "name": "Raspberry Pi 4 Case-Red-White",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-4-case-red-white/"
+    },
+    {
+      "id": "77f",
+      "name": "Raspberry Pi 4 Model B with 2 GB RAM",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-4-model-b-with-2-gb-ram/"
+    },
+    {
+      "id": "77g",
+      "name": "Raspberry Pi 4 Model-B with 1 GB RAM",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-4-model-b-with-1-gb-ram/"
+    },
+    {
+      "id": "77h",
+      "name": "Raspberry Pi 4 Model-B with 4 GB RAM",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-4-model-b-with-4-gb-ram/"
+    },
+    {
+      "id": "77i",
+      "name": "Raspberry Pi 4 Model-B with 8 GB RAM",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-4-model-b-with-8-gb-ram/"
+    },
+    {
+      "id": "77j",
+      "name": "Raspberry Pi 5MP 25mm Telephoto lens",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-5mp-25mm-telephoto-lens/"
+    },
+    {
+      "id": "77k",
+      "name": "RASPBERRY PI 8MP V2 CAMERA MODULE",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-8mp-v2-camera-module/"
+    },
+    {
+      "id": "77l",
+      "name": "Raspberry Pi Camera Module 3",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-camera-module-3/"
+    },
+    {
+      "id": "77m",
+      "name": "Raspberry Pi Camera Module 3 NoIR – Wide",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-camera-module-3-noir-wide/"
+    },
+    {
+      "id": "77n",
+      "name": "Raspberry Pi Camera Module 3 Wide",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-camera-module-3-wide/"
+    },
+    {
+      "id": "77o",
+      "name": "Raspberry Pi Camera NOIR V2",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-camera-noir-v2/"
+    },
+    {
+      "id": "77p",
+      "name": "Raspberry Pi Debug Probe",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-debug-probe/"
+    },
+    {
+      "id": "77q",
+      "name": "Raspberry Pi HQ Camera – M12 Mount",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-hq-camera-m12-mount/"
+    },
+    {
+      "id": "77r",
+      "name": "Raspberry Pi M12 Lens, 12 Megapixel, 8mm, portrait lens 56 deg FOV",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-m12-lens-12-megapixel-8mm-portrait-lens-56-deg-fov/"
+    },
+    {
+      "id": "77s",
+      "name": "Raspberry Pi Pi3/Pi3B+ Micro USB 12.75W Power Supply (White)",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-pi3pi3b-micro-usb-1275w-power-supply-white/"
+    },
+    {
+      "id": "77t",
+      "name": "Raspberry Pi Pico board",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-pico-board/"
+    },
+    {
+      "id": "77u",
+      "name": "Raspberry PI PICO H",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-pico-h/"
+    },
+    {
+      "id": "77v",
+      "name": "Raspberry Pi Pico W",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-pico-w/"
+    },
+    {
+      "id": "77w",
+      "name": "Raspberry Pi Sense HAT for the Pi 3/2/B+/A+ Model",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-sense-hat-for-the-pi-32ba-model/"
+    },
+    {
+      "id": "77x",
+      "name": "Raspberry Pi WS1132712 12MP 2.7MM Wide angle lens",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-ws1132712-12mp-27mm-wide-angle-lens/"
+    },
+    {
+      "id": "77y",
+      "name": "Raspberry Pi Zero 2 W",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-zero-2-w/"
+    },
+    {
+      "id": "77z",
+      "name": "Raspberry Pi Zero W",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-zero-w/"
+    },
+    {
+      "id": "78a",
+      "name": "RJ45 CAT5 0.8M Ethernet Patch LAN Cable",
+      "url": "https://www.agarwalelectronics.com/product/rj45-cat5-08m-ethernet-patch-lan-cable/"
+    },
+    {
+      "id": "78b",
+      "name": "SanDisk Micro SD/SDHC 16GB Class 10 Memory Card",
+      "url": "https://www.agarwalelectronics.com/product/sandisk-micro-sdsdhc-16gb-class-10-memory-card/"
+    },
+    {
+      "id": "77",
+      "name": "CT6B 2.4GHz 6CH Transmitter with FS-R6B Receiver",
+      "url": "https://www.agarwalelectronics.com/product/ct6b-24ghz-6ch-transmitter-with-fs-r6b-receiver/"
+    },
+    {
+      "id": "79",
+      "name": "FS-IA6B 2.4GHz 6CH PPM Output Receiver",
+      "url": "https://www.agarwalelectronics.com/product/fs-ia6b-24ghz-6ch-ppm-output-receiver/"
+    },
+    {
+      "id": "80",
+      "name": "FS-SM100 USB Simulator Cable",
+      "url": "https://www.agarwalelectronics.com/product/fs-sm100-usb-simulator-cable/"
+    },
+    {
+      "id": "81",
+      "name": "FS-i6 2.4G 6CH PPM RC Transmitter With FS-iA6B Receiver",
+      "url": "https://www.agarwalelectronics.com/product/fs-i6-24g-6ch-ppm-rc-transmitter-with-fs-ia6b-receiver/"
+    },
+    {
+      "id": "82",
+      "name": "FS-I6S 10CH Transmitter with FS-IA10B Receiver",
+      "url": "https://www.agarwalelectronics.com/product/fs-i6s-10ch-transmitter-with-fs-ia10b-receiver/"
+    },
+    {
+      "id": "83",
+      "name": "FS-IA10B 10CH RC Receiver",
+      "url": "https://www.agarwalelectronics.com/product/fs-ia10b-10ch-rc-receiver/"
+    },
+    {
+      "id": "84",
+      "name": "FS-R6B FlySky 2.4GHz 6CH Receiver",
+      "url": "https://www.agarwalelectronics.com/product/fs-r6b-flysky-24ghz-6ch-receiver/"
+    },
+    {
+      "id": "85",
+      "name": "FS-SM600 6CH USB Flight Simulator",
+      "url": "https://www.agarwalelectronics.com/product/fs-sm600-6ch-usb-flight-simulator/"
+    },
+    {
+      "id": "86",
+      "name": "FS-TH9X 2.4GHz 9CH Upgrade Transmitter",
+      "url": "https://www.agarwalelectronics.com/product/fs-th9x-24ghz-9ch-upgrade-transmitter/"
+    },
+    {
+      "id": "87",
+      "name": "H16 RC Skydroid Remote Controller",
+      "url": "https://www.agarwalelectronics.com/product/h16-rc-skydroid-remote-controller/"
+    },
+    {
+      "id": "88",
+      "name": "HGLRC M80 Pro GPS Module",
+      "url": "https://www.agarwalelectronics.com/product/hglrc-m80-pro-gps-module/"
+    },
+    {
+      "id": "89",
+      "name": "RADIO MASTER TX16S MKII With ELRS Nano Receiver",
+      "url": "https://www.agarwalelectronics.com/product/radio-master-tx16s-mkii-with-elrs-nano-receiver/"
+    },
+    {
+      "id": "90",
+      "name": "Radiomaster Pocket Radio Controller CC2500",
+      "url": "https://www.agarwalelectronics.com/product/radiomaster-pocket-radio-controller-cc2500/"
+    },
+    {
+      "id": "91",
+      "name": "RP1 ExpressLRS Receiver",
+      "url": "https://www.agarwalelectronics.com/product/rp1-expresslrs-receiver/"
+    },
+    {
+      "id": "92",
+      "name": "SKYDROID H12 Inbuilt Display Remote Control with Camera",
+      "url": "https://www.agarwalelectronics.com/product/skydroid-h12-inbuilt-display-remote-control-with-camera/"
+    },
+    {
+      "id": "93",
+      "name": "BONKA 11.1V 10000mAh 25C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-10000mah-25c-3s-lipo-battery/"
+    },
+    {
+      "id": "94",
+      "name": "BONKA 11.1V 1000mAh 35C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-1000mah-35c-3s-lipo-battery/"
+    },
+    {
+      "id": "95",
+      "name": "BONKA 11.1V 2200mAh 35C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-2200mah-35c-3s-lipo-battery/"
+    },
+    {
+      "id": "96",
+      "name": "BONKA 11.1V 3300mAh 35C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-3300mah-35c-3s-lipo-battery/"
+    },
+    {
+      "id": "97",
+      "name": "BONKA 11.1V 4200mAh 35C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-4200mah-35c-3s-lipo-battery/"
+    },
+    {
+      "id": "98",
+      "name": "BONKA 11.1V 8000mAh 25C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-8000mah-25c-3s-lipo-battery/"
+    },
+    {
+      "id": "99",
+      "name": "BONKA 11.1V 1500mAh 75C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-1500mah-75c-3s-lipo-battery/"
+    },
+    {
+      "id": "100",
+      "name": "BONKA 11.1V 1500mAh 35C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-1500mah-35c-3s-lipo-battery/"
+    },
+    {
+      "id": "101",
+      "name": "BONKA 11.1V 5200mAh 65C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-5200mah-65c-3s-lipo-battery/"
+    },
+    {
+      "id": "102",
+      "name": "BONKA 11.1V 5200mAh 35C 3S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-111v-5200mah-35c-3s-lipo-battery/"
+    },
+    {
+      "id": "103",
+      "name": "BONKA 14.8V 10000mAh 45C 4S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-148v-10000mah-45c-4s-lipo-battery/"
+    },
+    {
+      "id": "104",
+      "name": "BONKA 14.8V 1500mAh 75C 4S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-148v-1500mah-75c-4s-lipo-battery/"
+    },
+    {
+      "id": "105",
+      "name": "BONKA 14.8V 2200mAh 35C 4S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-148v-2200mah-35c-4s-lipo-battery/"
+    },
+    {
+      "id": "106",
+      "name": "BONKA 14.8V 4200mAh 35C 4S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-148v-4200mah-35c-4s-lipo-battery/"
+    },
+    {
+      "id": "107",
+      "name": "BONKA 14.8V 5200mAh 35C 4S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-148v-5200mah-35c-4s-lipo-battery/"
+    },
+    {
+      "id": "108",
+      "name": "BONKA 7.4V 1500mAh 35C 2S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-74v-1500mah-35c-2s-lipo-battery/"
+    },
+    {
+      "id": "109",
+      "name": "BONKA 7.4V 2200mAh 35C 2S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-74v-2200mah-35c-2s-lipo-battery/"
+    },
+    {
+      "id": "110",
+      "name": "BONKA 22.2V 1300mAh 100C 6S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-222v-1300mah-100c-6s-lipo-battery/"
+    },
+    {
+      "id": "111",
+      "name": "BONKA 22.2V 1400mAh 130C 6S FPV U2 Series",
+      "url": "https://www.agarwalelectronics.com/product/bonka-222v-1400mah-130c-6s-fpv-u2-series/"
+    },
+    {
+      "id": "112",
+      "name": "BONKA 22.2V 4500mAh 120C 6S FPV U2 Series",
+      "url": "https://www.agarwalelectronics.com/product/bonka-222v-4500mah-120c-6s-fpv-u2-series/"
+    },
+    {
+      "id": "113",
+      "name": "BONKA 22.2V 5200mAh 35C 6S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-222v-5200mah-35c-6s-lipo-battery/"
+    },
+    {
+      "id": "114",
+      "name": "BONKA 22.2V 8000mAh 35C 6S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-222v-8000mah-35c-6s-lipo-battery/"
+    },
+    {
+      "id": "115",
+      "name": "BONKA 22.2V 16000mAh 25C 6S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/bonka-222v-16000mah-25c-6s-lipo-battery/"
+    },
+    {
+      "id": "116",
+      "name": "BONKA 16000mAh 5C 6S 22.2V Semi Solid Lithium Ion",
+      "url": "https://www.agarwalelectronics.com/product/bonka-16000mah-5c-6s-222v-semi-solid-lithium-ion/"
+    },
+    {
+      "id": "117",
+      "name": "TATTU 22.2V 16000mAh 15C 6S LiPo Battery",
+      "url": "https://www.agarwalelectronics.com/product/tattu-222v-16000mah-15c-6s-lipo-battery/"
+    },
+    {
+      "id": "118",
+      "name": "CHINESE LiPo Rechargeable Battery 11.1V 2200mAh",
+      "url": "https://www.agarwalelectronics.com/product/chinese-lipo-rechargeable-battery-111v-2200mah/"
+    },
+    {
+      "id": "2001",
+      "name": "3-In-1 ACEBOTT ESP32 STEM School Smart Home Education Kit – LV 1",
+      "url": "https://www.agarwalelectronics.com/product/3-in-1-acebott-esp32-stem-school-smart-home-education-kit-lv-1/"
+    },
+    {
+      "id": "2002",
+      "name": "5-in-1 ACEBOTT ESP32 STEM School Smart Home Kit – Level 2",
+      "url": "https://www.agarwalelectronics.com/product/5-in-1-acebott-esp32-stem-school-smart-home-kit-level-2/"
+    },
+    {
+      "id": "2003",
+      "name": "ACEBOTT Electric Scoring & Shooting Target – QD006",
+      "url": "https://www.agarwalelectronics.com/product/acebott-electric-scoring-shooting-target-qd006/"
+    },
+    {
+      "id": "2004",
+      "name": "ACEBOTT ESP32 4WD Smart Robot Car Kit for Arduino",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp32-4wd-smart-robot-car-kit-for-arduino/"
+    },
+    {
+      "id": "2005",
+      "name": "ACEBOTT ESP32 5-DOF Robot Arm Kit Expansion Pack",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp32-5-dof-robot-arm-kit-expansion-pack/"
+    },
+    {
+      "id": "2006",
+      "name": "ACEBOTT ESP32 Camera Expansion Pack for Smart Robot Car kit",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp32-camera-expansion-pack-for-smart-robot-car-kit/"
+    },
+    {
+      "id": "2007",
+      "name": "ACEBOTT ESP32 Programmable Robot Arm Kit for Arduino",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp32-programmable-robot-arm-kit-for-arduino/"
+    },
+    {
+      "id": "2008",
+      "name": "ACEBOTT ESP32 Smart Farm IoT Starter Kit with Arduino IDE/ACE Code(Scratch)",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp32-smart-farm-iot-starter-kit-with-arduino-ideace-codescratch/"
+    },
+    {
+      "id": "2009",
+      "name": "ACEBOTT ESP32 Smart Home IOT Starter Kit with Arduino IDE/ACE Code(Scratch)",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp32-smart-home-iot-starter-kit-with-arduino-ideace-codescratch/"
+    },
+    {
+      "id": "2010",
+      "name": "ACEBOTT ESP32 Tank Robot Car Expansion Pack – QD004",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp32-tank-robot-car-expansion-pack-qd004/"
+    },
+    {
+      "id": "2011",
+      "name": "ACEBOTT ESP8266 Quadruped Bionic Spider Robot",
+      "url": "https://www.agarwalelectronics.com/product/acebott-esp8266-quadruped-bionic-spider-robot/"
+    },
+    {
+      "id": "2012",
+      "name": "ACEBOTT Smart Home IoT Starter Kit with Arduino",
+      "url": "https://www.agarwalelectronics.com/product/acebott-smart-home-iot-starter-kit-with-arduino/"
+    },
+    {
+      "id": "2013",
+      "name": "QE027 Intelligent Transportation LV 1 Tutorial",
+      "url": "https://www.agarwalelectronics.com/product/qe027-intelligent-transportation-lv-1-tutorial/"
+    },
+    {
+      "id": "2014",
+      "name": "Smart Factory education kit Lv 1",
+      "url": "https://www.agarwalelectronics.com/product/smart-factory-education-kit-lv-1/"
+    },
+    {
+      "id": "3001",
+      "name": "1000 MM long Chrome Plated Smooth Rod Diameter 8 MM",
+      "url": "https://www.agarwalelectronics.com/product/1000-mm-long-chrome-plated-smooth-rod-diameter-8-mm/"
+    },
+    {
+      "id": "3002",
+      "name": "12V 10A SMPS - 120W - DC Metal Power Supply",
+      "url": "https://www.agarwalelectronics.com/product/12v-10a-smps-120w-dc-metal-power-supply/"
+    },
+    {
+      "id": "3003",
+      "name": "12V 30A SMPS - 360W - DC Metal Power Supply",
+      "url": "https://www.agarwalelectronics.com/product/12v-30a-smps-360w-dc-metal-power-supply/"
+    },
+    {
+      "id": "3004",
+      "name": "2 Meter GT2 Timing Belt + 2Pcs of GT2 pulley (20 teeth)",
+      "url": "https://www.agarwalelectronics.com/product/2-meter-gt2-timing-belt-2pcs-of-gt2-pulley-20-teeth/"
+    },
+    {
+      "id": "3005",
+      "name": "2004 LCD Display RepRapDiscount Smart Controller with Adapter",
+      "url": "https://www.agarwalelectronics.com/product/2004-lcd-display-reprapdiscount-smart-controller-with-adapter/"
+    },
+    {
+      "id": "3006",
+      "name": "2020 aluminum extrusion",
+      "url": "https://www.agarwalelectronics.com/product/2020-aluminum-extrusion/"
+    },
+    {
+      "id": "3007",
+      "name": "3000M GT2 Width 6mm Black Open Timing Belt For 3D Printer",
+      "url": "https://www.agarwalelectronics.com/product/3000m-gt2-width-6mm-black-open-timing-belt-for-3d-printer/"
+    },
+    {
+      "id": "3008",
+      "name": "300mm Trapezoidal 4 Start Lead Screw 8mm Thread",
+      "url": "https://www.agarwalelectronics.com/product/300mm-trapezoidal-4-start-lead-screw-8mm-thread/"
+    },
+    {
+      "id": "3009",
+      "name": "3D Printer Controller Board RAMPS 1.4 Arduino Mega Shield RepRap Prusa Model",
+      "url": "https://www.agarwalelectronics.com/product/3d-printer-controller-board-ramps-14-arduino-mega-shield-reprap-prusa-model/"
+    },
+    {
+      "id": "3010",
+      "name": "500 MM long Chrome Plated Smooth Rod Diameter 8 MM",
+      "url": "https://www.agarwalelectronics.com/product/500-mm-long-chrome-plated-smooth-rod-diameter-8-mm/"
+    },
+    {
+      "id": "4001",
+      "name": "60KTYZ CLAW POLE PERMANENT MAGNET AC SYNCHRONOUS MOTOR",
+      "url": "https://www.agarwalelectronics.com/product/60ktyz-claw-pole-permanent-magnet-ac-synchronous-motor/"
+    },
+    {
+      "id": "4002",
+      "name": "AC220V 14W 60KTYZ Permanent Magnet Synchronous Motor 2.5RPM/MIN",
+      "url": "https://www.agarwalelectronics.com/product/ac220v-14w-60ktyz-permanent-magnet-synchronous-motor-25rpmmin/"
+    },
+    {
+      "id": "5001",
+      "name": "1.27 MM MALE BERG",
+      "url": "https://www.agarwalelectronics.com/product/127-mm-male-berg/"
+    },
+    {
+      "id": "5002",
+      "name": "1.27mm 2x40 Pin Male Double Row Header Strip",
+      "url": "https://www.agarwalelectronics.com/product/127mm-2x40-pin-male-double-row-header-strip/"
+    },
+    {
+      "id": "5003",
+      "name": "1.27MM BERG FEMALE",
+      "url": "https://www.agarwalelectronics.com/product/127mm-berg-female/"
+    },
+    {
+      "id": "5004",
+      "name": "1x40 Berg Strip Male Connector BIG",
+      "url": "https://www.agarwalelectronics.com/product/1x40-berg-strip-male-connector-big/"
+    },
+    {
+      "id": "5005",
+      "name": "10 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/10-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "5006",
+      "name": "10 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/10-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "5007",
+      "name": "12 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/12-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "5008",
+      "name": "12 AWG SILICONE WIRE (BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/12-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "5009",
+      "name": "14 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/14-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "5010",
+      "name": "14 AWG SILICONE WIRE ( RED)",
+      "url": "https://www.agarwalelectronics.com/product/14-awg-silicone-wire-red/"
+    },
+    {
+      "id": "6001",
+      "name": "Centrifugal Nozzle Spray System for Agriculture Drone",
+      "url": "https://www.agarwalelectronics.com/product/centrifugal-nozzle-spray-system-for-agriculture-drone/"
+    },
+    {
+      "id": "6002",
+      "name": "Drone Nozzle 110 Degree 20mm Double",
+      "url": "https://www.agarwalelectronics.com/product/drone-nozzle-110-degree-20mm-double/"
+    },
+    {
+      "id": "6003",
+      "name": "Drone Spray Nozzle 3810",
+      "url": "https://www.agarwalelectronics.com/product/drone-spray-nozzle-3810/"
+    },
+    {
+      "id": "6004",
+      "name": "Drone Spray NOZZLE DOUBLE HEAD",
+      "url": "https://www.agarwalelectronics.com/product/drone-spray-nozzle-double-head/"
+    },
+    {
+      "id": "6005",
+      "name": "EFT E410P 10L 4 Axis Agricultural Drone Frame",
+      "url": "https://www.agarwalelectronics.com/product/eft-e410p-10l-4-axis-agricultural-drone-frame/"
+    },
+    {
+      "id": "6006",
+      "name": "H16 RC Skydroid",
+      "url": "https://www.agarwalelectronics.com/product/h16-rc-skydroid/"
+    },
+    {
+      "id": "6007",
+      "name": "Hobbywing Pump 5L Kit with Nozzle",
+      "url": "https://www.agarwalelectronics.com/product/hobbywing-pump-5l-kit-with-nozzle/"
+    },
+    {
+      "id": "6008",
+      "name": "Jiyi K++ V2 Flight Controller Kit",
+      "url": "https://www.agarwalelectronics.com/product/jiyi-k-v2-flight-controller-kit/"
+    },
+    {
+      "id": "6009",
+      "name": "Jiyi K3 Apro Flight Controller Kit",
+      "url": "https://www.agarwalelectronics.com/product/jiyi-k3-apro-flight-controller-kit/"
+    },
+    {
+      "id": "6010",
+      "name": "PROP 2388 CCW-CW - Without Pad Set of 2 Compatible",
+      "url": "https://www.agarwalelectronics.com/product/prop-2388-ccw-cw-without-pad-set-of-2-compatible/"
+    },
+    {
+      "id": "7001",
+      "name": "150mm FrSky Receiver Antenna new version IPEX4",
+      "url": "https://www.agarwalelectronics.com/product/150mm-frsky-receiver-antenna-new-version-ipex4/"
+    },
+    {
+      "id": "7002",
+      "name": "15cm 3DBI GSM/GPRS/3G PCB Antenna with IPEX Connector",
+      "url": "https://www.agarwalelectronics.com/product/15cm-3dbi-gsmgprs3g-pcb-antenna-with-ipex-connector/"
+    },
+    {
+      "id": "7003",
+      "name": "2.4G 150mm Receiver Antenna regular",
+      "url": "https://www.agarwalelectronics.com/product/24g-150mm-receiver-antenna-regular/"
+    },
+    {
+      "id": "7004",
+      "name": "2.4GHz 3.2dBi RP-SMA female Omni Antenna for WiFi",
+      "url": "https://www.agarwalelectronics.com/product/24ghz-32dbi-rp-sma-female-omni-antenna-for-wifi/"
+    },
+    {
+      "id": "7005",
+      "name": "2.4GHz 5dBi Omni Wi-Fi Booster SMA Male Antenna",
+      "url": "https://www.agarwalelectronics.com/product/24ghz-5dbi-omni-wi-fi-booster-sma-male-antenna/"
+    },
+    {
+      "id": "7006",
+      "name": "2400 - 2483 MHz 2dBi Gain Rubber Duck Antenna",
+      "url": "https://www.agarwalelectronics.com/product/2400-2483-mhz-2dbi-gain-rubber-duck-antenna/"
+    },
+    {
+      "id": "7007",
+      "name": "2400 - 2483 MHz 3dBi Gain Rubber Duck Antenna",
+      "url": "https://www.agarwalelectronics.com/product/2400-2483-mhz-3dbi-gain-rubber-duck-antenna/"
+    },
+    {
+      "id": "7008",
+      "name": "433 MHz 2.5dbi Omnidirectional folding",
+      "url": "https://www.agarwalelectronics.com/product/433-mhz-25dbi-omnidirectional-folding/"
+    },
+    {
+      "id": "7009",
+      "name": "433 Mhz 3dbi magnetic mount",
+      "url": "https://www.agarwalelectronics.com/product/433-mhz-3dbi-magnetic-mount/"
+    },
+    {
+      "id": "7010",
+      "name": "433mhz 3dbi antenna for lora",
+      "url": "https://www.agarwalelectronics.com/product/433mhz-3dbi-antenna-for-lora/"
+    },
+    {
+      "id": "8001",
+      "name": "Audio Jack",
+      "url": "https://www.agarwalelectronics.com/product/audio-jack/"
+    },
+    {
+      "id": "8002",
+      "name": "BLUETOOTH FOR AUDIO",
+      "url": "https://www.agarwalelectronics.com/product/bluetooth-for-audio/"
+    },
+    {
+      "id": "8003",
+      "name": "Condensor Mic",
+      "url": "https://www.agarwalelectronics.com/product/condensor-mic/"
+    },
+    {
+      "id": "8004",
+      "name": "CSR8635 Bluetooth 4.0 Stereo Audio Receive Board Speaker Module",
+      "url": "https://www.agarwalelectronics.com/product/csr8635-bluetooth-40-stereo-audio-receive-board-speaker-module/"
+    },
+    {
+      "id": "8005",
+      "name": "DC12-24V TPA3116D2 2.1 Channel Digital Subwoofer Power Amplifier Board",
+      "url": "https://www.agarwalelectronics.com/product/dc12-24v-tpa3116d2-21-channel-digital-subwoofer-power-amplifier-board/"
+    },
+    {
+      "id": "8006",
+      "name": "HDMI TO VGA WITH AUDIO",
+      "url": "https://www.agarwalelectronics.com/product/hdmi-to-vga-with-audio/"
+    },
+    {
+      "id": "8007",
+      "name": "PAM 8406",
+      "url": "https://www.agarwalelectronics.com/product/pam-8406/"
+    },
+    {
+      "id": "8008",
+      "name": "PAM 8610",
+      "url": "https://www.agarwalelectronics.com/product/pam-8610/"
+    },
+    {
+      "id": "8009",
+      "name": "PAM8403 5VT",
+      "url": "https://www.agarwalelectronics.com/product/pam8403-5vt/"
+    },
+    {
+      "id": "8010",
+      "name": "PAM8610 with volume control BIG",
+      "url": "https://www.agarwalelectronics.com/product/pam8610-with-volume-control-big/"
+    },
+    {
+      "id": "8011",
+      "name": "1.27 MM MALE BERG",
+      "url": "https://www.agarwalelectronics.com/product/127-mm-male-berg/"
+    },
+    {
+      "id": "8012",
+      "name": "1.27mm 2×40 Pin Male Double Row Header Strip",
+      "url": "https://www.agarwalelectronics.com/product/127mm-240-pin-male-double-row-header-strip/"
+    },
+    {
+      "id": "8013",
+      "name": "1.27MM BERG FEMALE",
+      "url": "https://www.agarwalelectronics.com/product/127mm-berg-female/"
+    },
+    {
+      "id": "8014",
+      "name": "1×40 Berg Strip Male Connector BIG",
+      "url": "https://www.agarwalelectronics.com/product/140-berg-strip-male-connector-big/"
+    },
+    {
+      "id": "8015",
+      "name": "2 Pin 3.81mm Pitch Pluggable Terminal Block",
+      "url": "https://www.agarwalelectronics.com/product/2-pin-381mm-pitch-pluggable-terminal-block/"
+    },
+    {
+      "id": "8016",
+      "name": "2.54mm 1×40 Pin Female Single Row Header Strip",
+      "url": "https://www.agarwalelectronics.com/product/254mm-140-pin-female-single-row-header-strip/"
+    },
+    {
+      "id": "8017",
+      "name": "2.54mm 2×40 Berg Strip Right Angle Female Connector",
+      "url": "https://www.agarwalelectronics.com/product/254mm-240-berg-strip-right-angle-female-connector/"
+    },
+    {
+      "id": "8018",
+      "name": "2.54MM pitch 40 Pin Male Double Row",
+      "url": "https://www.agarwalelectronics.com/product/254mm-pitch-40-pin-male-double-row/"
+    },
+    {
+      "id": "8019",
+      "name": "3.81mm Combiconn MF Vertical 3pin",
+      "url": "https://www.agarwalelectronics.com/product/381mm-combiconn-mf-vertical-3pin/"
+    },
+    {
+      "id": "8020",
+      "name": "3PIN BERG HOUSING",
+      "url": "https://www.agarwalelectronics.com/product/3pin-berg-housing/"
+    },
+    {
+      "id": "8021",
+      "name": "40X1 BERG MALE 90 DEGREE",
+      "url": "https://www.agarwalelectronics.com/product/40x1-berg-male-90-degree/"
+    },
+    {
+      "id": "8022",
+      "name": "8-PIN MALE RIGHT ANGLE",
+      "url": "https://www.agarwalelectronics.com/product/8-pin-male-right-angle/"
+    },
+    {
+      "id": "8023",
+      "name": "8pin Combiconn M/f 3.81MM 90D",
+      "url": "https://www.agarwalelectronics.com/product/8pin-combiconn-mf-381mm-90d/"
+    },
+    {
+      "id": "8024",
+      "name": "Amass MT30 3 Pole PAIR",
+      "url": "https://www.agarwalelectronics.com/product/amass-mt30-3-pole-pair/"
+    },
+    {
+      "id": "8025",
+      "name": "Amass XT60E-M Plug Connector",
+      "url": "https://www.agarwalelectronics.com/product/amass-xt60e-m-plug-connector/"
+    },
+    {
+      "id": "8026",
+      "name": "Amass XT90 Male/Female Connector",
+      "url": "https://www.agarwalelectronics.com/product/amass-xt90-malefemale-connector/"
+    },
+    {
+      "id": "8027",
+      "name": "Anderson Connector 175A",
+      "url": "https://www.agarwalelectronics.com/product/anderson-connector-175a/"
+    },
+    {
+      "id": "8028",
+      "name": "Anderson Connector 50a Chn",
+      "url": "https://www.agarwalelectronics.com/product/anderson-connector-50a-chn/"
+    },
+    {
+      "id": "8029",
+      "name": "SO/MSOP/TSSOP/SOIC/ to Dip8 Board PCB",
+      "url": "https://www.agarwalelectronics.com/product/somsoptssopsoic-to-dip8-board-pcb/"
+    },
+    {
+      "id": "8030",
+      "name": "TQFP-0.8MM",
+      "url": "https://www.agarwalelectronics.com/product/tqfp-08mm/"
+    },
+    {
+      "id": "8031",
+      "name": "TYPE C TO DIP CONVERTER",
+      "url": "https://www.agarwalelectronics.com/product/type-c-to-dip-converter/"
+    },
+    {
+      "id": "8032",
+      "name": "Arduino Uno Kit AKX00037",
+      "url": "https://www.agarwalelectronics.com/product/arduino-uno-kit-akx00037/"
+    },
+    {
+      "id": "8033",
+      "name": "Raspberry Pi 3 IoT Set",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-3-iot-set/"
+    },
+    {
+      "id": "8034",
+      "name": "1x1 Matrix Membrane keypad",
+      "url": "https://www.agarwalelectronics.com/product/1x1-matrix-membrane-keypad/"
+    },
+    {
+      "id": "8035",
+      "name": "4×3 Matrix membrane keypad",
+      "url": "https://www.agarwalelectronics.com/product/43-matrix-membrane-keypad/"
+    },
+    {
+      "id": "8036",
+      "name": "4x1 Matrix Membrane keypad",
+      "url": "https://www.agarwalelectronics.com/product/4x1-matrix-membrane-keypad/"
+    },
+    {
+      "id": "8037",
+      "name": "4x3 Keypad Black ( Low)",
+      "url": "https://www.agarwalelectronics.com/product/4x3-keypad-black-low/"
+    },
+    {
+      "id": "8038",
+      "name": "4x4 Matrix Membrane keypad",
+      "url": "https://www.agarwalelectronics.com/product/4x4-matrix-membrane-keypad/"
+    },
+    {
+      "id": "8039",
+      "name": "4x5 Matrix Membrane keypad",
+      "url": "https://www.agarwalelectronics.com/product/4x5-matrix-membrane-keypad/"
+    },
+    {
+      "id": "8040",
+      "name": "10 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/10-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8041",
+      "name": "10 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/10-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "8042",
+      "name": "12 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/12-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "8043",
+      "name": "12 AWG SILICONE WIRE (BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/12-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8044",
+      "name": "14 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/14-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8045",
+      "name": "14 AWG SILICONE WIRE ( RED)",
+      "url": "https://www.agarwalelectronics.com/product/14-awg-silicone-wire-red/"
+    },
+    {
+      "id": "8046",
+      "name": "16 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/16-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8047",
+      "name": "16 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/16-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "8048",
+      "name": "18 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/18-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8049",
+      "name": "18 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/18-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "8050",
+      "name": "20 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/20-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8051",
+      "name": "20 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/20-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "8052",
+      "name": "22 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/22-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8053",
+      "name": "22 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/22-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "8054",
+      "name": "24 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/24-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8055",
+      "name": "24 AWG SILICONE WIRE ( RED )",
+      "url": "https://www.agarwalelectronics.com/product/24-awg-silicone-wire-red-/"
+    },
+    {
+      "id": "8056",
+      "name": "6AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/6awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8057",
+      "name": "8 AWG SILICONE WIRE ( BLACK )",
+      "url": "https://www.agarwalelectronics.com/product/8-awg-silicone-wire-black-/"
+    },
+    {
+      "id": "8058",
+      "name": "Anti-Static Anti-Skid ESD Gloves",
+      "url": "https://www.agarwalelectronics.com/product/anti-static-anti-skid-esd-gloves/"
+    },
+    {
+      "id": "8059",
+      "name": "Anti-Static Tweezers 6pcs Set",
+      "url": "https://www.agarwalelectronics.com/product/anti-static-tweezers-6pcs-set/"
+    },
+    {
+      "id": "8060",
+      "name": "ESD MAT 1X1 Sq M",
+      "url": "https://www.agarwalelectronics.com/product/esd-mat-1x1-sq-m/"
+    },
+    {
+      "id": "8061",
+      "name": "S-160 ESD Heat Insulation Working Mat 450X300mm",
+      "url": "https://www.agarwalelectronics.com/product/s-160-esd-heat-insulation-working-mat-450x300mm/"
+    },
+    {
+      "id": "8062",
+      "name": "WRIST BAND",
+      "url": "https://www.agarwalelectronics.com/product/wrist-band/"
+    },
+    {
+      "id": "8063",
+      "name": "Cable For Arduino UNO/MEGA (USB A to B)",
+      "url": "https://www.agarwalelectronics.com/product/cable-for-arduino-unomega-usb-a-to-b/"
+    },
+    {
+      "id": "1",
+      "name": "3D printers parts",
+      "url": "https://www.agarwalelectronics.com/product/3d-printers-parts/"
+    },
+    {
+      "id": "2",
+      "name": "AC MOTOR",
+      "url": "https://www.agarwalelectronics.com/product/ac-motor/"
+    },
+    {
+      "id": "3",
+      "name": "Accessories",
+      "url": "https://www.agarwalelectronics.com/product/accessories/"
+    },
+    {
+      "id": "3-1",
+      "name": "Connectors",
+      "url": "https://www.agarwalelectronics.com/product/connectors/"
+    },
+    {
+      "id": "3-2",
+      "name": "DIP Converters",
+      "url": "https://www.agarwalelectronics.com/product/dip-converters/"
+    },
+    {
+      "id": "3-3",
+      "name": "IOT",
+      "url": "https://www.agarwalelectronics.com/product/iot/"
+    },
+    {
+      "id": "3-4",
+      "name": "Keypad",
+      "url": "https://www.agarwalelectronics.com/product/keypad/"
+    },
+    {
+      "id": "3-5",
+      "name": "Silicone Wires",
+      "url": "https://www.agarwalelectronics.com/product/silicone-wires/"
+    },
+    {
+      "id": "3-6",
+      "name": "Twezzers",
+      "url": "https://www.agarwalelectronics.com/product/twezzers/"
+    },
+    {
+      "id": "3-7",
+      "name": "USB Cables",
+      "url": "https://www.agarwalelectronics.com/product/usb-cables/"
+    },
+    {
+      "id": "4",
+      "name": "Agriculture Drone Parts",
+      "url": "https://www.agarwalelectronics.com/product/agriculture-drone-parts/"
+    },
+    {
+      "id": "5",
+      "name": "ANTENNA",
+      "url": "https://www.agarwalelectronics.com/product/antenna/"
+    },
+    {
+      "id": "6",
+      "name": "Audio Jack",
+      "url": "https://www.agarwalelectronics.com/product/audio-jack/"
+    },
+    {
+      "id": "8",
+      "name": "ROBOTIC DIY KITS",
+      "url": "https://www.agarwalelectronics.com/product/robotic-diy-kits/"
+    },
+    {
+      "id": "9",
+      "name": "READY RUNNING PROJECTS",
+      "url": "https://www.agarwalelectronics.com/product/ready-running-projects/"
+    },
+    {
+      "id": "10",
+      "name": "Raspberry Pi Boards",
+      "url": "https://www.agarwalelectronics.com/product/raspberry-pi-boards/"
+    },
+    {
+      "id": "10-1",
+      "name": "RPI Accessories",
+      "url": "https://www.agarwalelectronics.com/product/rpi-accessories/"
+    },
+    {
+      "id": "11",
+      "name": "MINI DRONE KITS ( BELOW 20CMS )",
+      "url": "https://www.agarwalelectronics.com/product/mini-drone-kits-below-20cms-/"
+    },
+    {
+      "id": "12",
+      "name": "DRONE TRANSMITER AND RECEIVER",
+      "url": "https://www.agarwalelectronics.com/product/drone-transmiter-and-receiver/"
+    },
+    {
+      "id": "13",
+      "name": "DIY KITS",
+      "url": "https://www.agarwalelectronics.com/product/diy-kits/"
+    },
+    {
+      "id": "14",
+      "name": "Bonka Batteries",
+      "url": "https://www.agarwalelectronics.com/product/bonka-batteries/"
+    },
+    {
+      "id": "6",
+      "name": "Elcon",
+      "url": "https://www.agarwalelectronics.com/product/elcon/"
+    }
+  ]
+}

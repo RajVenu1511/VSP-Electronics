@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description Fetcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .input-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="text"]:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .output-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .output-section h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        
+        .copy-btn {
+            background: #28a745;
+            margin-top: 10px;
+        }
+        
+        .copy-btn:hover {
+            box-shadow: 0 8px 20px rgba(40, 167, 69, 0.4);
+        }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        
+        .alert-info {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+        }
+        
+        .alert-success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        
+        .example {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        
+        .example strong {
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚁 Product Description Helper</h1>
+            <p>Copy descriptions from your production site and generate code for your products</p>
+        </div>
+        
+        <div class="content">
+            <div class="alert alert-info">
+                <strong>Instructions:</strong> 
+                <ol style="margin-left: 20px; margin-top: 10px;">
+                    <li>Go to your product page on https://www.agarwalelectronics.com/</li>
+                    <li>Copy the main description text (the paragraph under the product title)</li>
+                    <li>Copy the Description tab content (specifications and details)</li>
+                    <li>Fill in the form below and click Generate</li>
+                </ol>
+            </div>
+            
+            <div class="example">
+                <strong>Example:</strong><br>
+                <strong>Description:</strong> "The DM002 Mini DIY Drone is an excellent and affordable..."<br>
+                <strong>About Product:</strong> "1.) Red when charger is connected... Material: Plastic..."
+            </div>
+            
+            <div class="input-section">
+                <div class="form-group">
+                    <label for="productId">Product ID (from your local system):</label>
+                    <input type="text" id="productId" placeholder="e.g., 14b">
+                </div>
+                
+                <div class="form-group">
+                    <label for="productName">Product Name:</label>
+                    <input type="text" id="productName" placeholder="e.g., DM002 DIY DRONE KIT">
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Description (Main text under product title):</label>
+                    <textarea id="description" placeholder="Paste the main product description here..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="aboutProduct">About Product (From Description tab):</label>
+                    <textarea id="aboutProduct" placeholder="Paste the detailed specifications and description here..."></textarea>
+                </div>
+                
+                <button class="btn" onclick="generateCode()">Generate Code</button>
+            </div>
+            
+            <div id="outputSection" class="output-section" style="display: none;">
+                <h3>✅ Generated TypeScript Code</h3>
+                <p style="margin-bottom: 15px; color: #666;">Copy this code and replace the existing product in your product.service.ts file:</p>
+                <pre id="outputCode"></pre>
+                <button class="btn copy-btn" onclick="copyCode()">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function escapeString(str) {
+            return str
+                .replace(/\\/g, '\\\\')
+                .replace(/'/g, "\\'")
+                .replace(/"/g, '\\"')
+                .replace(/\n/g, ' ')
+                .replace(/\r/g, ' ')
+                .replace(/\t/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+        
+        function generateCode() {
+            const productId = document.getElementById('productId').value.trim();
+            const productName = document.getElementById('productName').value.trim();
+            const description = document.getElementById('description').value.trim();
+            const aboutProduct = document.getElementById('aboutProduct').value.trim();
+            
+            if (!productId || !productName) {
+                alert('Please fill in at least Product ID and Name');
+                return;
+            }
+            
+            const escapedDescription = escapeString(description);
+            const escapedAbout = escapeString(aboutProduct);
+            
+            const code = `    {
+      id: '${productId}',
+      name: '${escapeString(productName)}',
+      description: '${escapedDescription}',
+      aboutProduct: '${escapedAbout}'
+    },`;
+            
+            document.getElementById('outputCode').textContent = code;
+            document.getElementById('outputSection').style.display = 'block';
+            
+            // Scroll to output
+            document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function copyCode() {
+            const code = document.getElementById('outputCode').textContent;
+            navigator.clipboard.writeText(code).then(() => {
+                const btn = event.target;
+                const originalText = btn.textContent;
+                btn.textContent = '✓ Copied!';
+                btn.style.background = '#28a745';
+                
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reset Admin Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #A327F5;
+        }
+        button {
+            background: #A327F5;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #5a3a1f;
+        }
+        .success {
+            background: #4caf50;
+            padding: 15px;
+            border-radius: 4px;
+            color: white;
+            margin: 20px 0;
+            display: none;
+        }
+        .info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 4px;
+            color: #0d47a1;
+            margin: 20px 0;
+        }
+        .credentials {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            border-left: 4px solid #ffc107;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Reset Admin Account</h1>
+        
+        <div class="credentials">
+            <h3>Admin Credentials:</h3>
+            <p><strong>Email:</strong> <code>admin@vspelectronics.com</code></p>
+            <p><strong>Password:</strong> <code>Admin@123</code></p>
+        </div>
+
+        <div class="info">
+            <strong>Instructions:</strong>
+            <ol>
+                <li>Click "Create Admin User" button below</li>
+                <li>Go to <a href="http://localhost:4200" target="_blank">http://localhost:4200</a></li>
+                <li>Click "Login / Register" in the header</li>
+                <li>Use the credentials above to login</li>
+                <li>Access Admin Dashboard from the user dropdown</li>
+            </ol>
+        </div>
+
+        <button onclick="createAdminUser()">Create Admin User</button>
+        <button onclick="clearAllData()">Clear All Data & Create Admin</button>
+        <button onclick="checkUsers()">Check Existing Users</button>
+
+        <div id="success" class="success"></div>
+        <div id="output" style="margin-top: 20px; padding: 15px; background: #f9f9f9; border-radius: 4px; max-height: 300px; overflow-y: auto;"></div>
+    </div>
+
+    <script>
+        function createAdminUser() {
+            const users = JSON.parse(localStorage.getItem('drone_shop_users') || '[]');
+            
+            // Check if admin already exists
+            const adminExists = users.some(u => u.email === 'admin@vspelectronics.com');
+            
+            if (!adminExists) {
+                const adminUser = {
+                    id: 'admin_001',
+                    name: 'Admin User',
+                    email: 'admin@vspelectronics.com',
+                    phone: '9999999999',
+                    role: 'admin',
+                    password: 'Admin@123',
+                    createdAt: new Date().toISOString()
+                };
+                
+                users.push(adminUser);
+                localStorage.setItem('drone_shop_users', JSON.stringify(users));
+                
+                showSuccess('Admin user created successfully! You can now login.');
+            } else {
+                showSuccess('Admin user already exists! You can login now.');
+            }
+            
+            checkUsers();
+        }
+
+        function clearAllData() {
+            if (confirm('This will delete ALL users and create a fresh admin account. Continue?')) {
+                const defaultUsers = [
+                    {
+                        id: 'admin_001',
+                        name: 'Admin User',
+                        email: 'admin@vspelectronics.com',
+                        phone: '9999999999',
+                        role: 'admin',
+                        password: 'Admin@123',
+                        createdAt: new Date().toISOString()
+                    },
+                    {
+                        id: 'test_001',
+                        name: 'Test User',
+                        email: 'test@gmail.com',
+                        phone: '9876543210',
+                        role: 'user',
+                        password: 'Test@123',
+                        createdAt: new Date().toISOString()
+                    }
+                ];
+                
+                localStorage.setItem('drone_shop_users', JSON.stringify(defaultUsers));
+                localStorage.removeItem('drone_shop_current_user');
+                
+                showSuccess('All data cleared! Admin and Test users created. Please login again.');
+                checkUsers();
+            }
+        }
+
+        function checkUsers() {
+            const users = JSON.parse(localStorage.getItem('drone_shop_users') || '[]');
+            const output = document.getElementById('output');
+            
+            if (users.length === 0) {
+                output.innerHTML = '<strong>No users found in database.</strong><br>Click "Create Admin User" to create one.';
+                return;
+            }
+            
+            let html = '<strong>Registered Users:</strong><br><br>';
+            users.forEach((user, index) => {
+                html += `<div style="margin-bottom: 15px; padding: 10px; background: white; border-left: 4px solid ${user.role === 'admin' ? '#ff9800' : '#2196f3'}; border-radius: 4px;">`;
+                html += `<strong>${index + 1}. ${user.name}</strong> ${user.role === 'admin' ? '👑' : '👤'}<br>`;
+                html += `Email: <code>${user.email}</code><br>`;
+                html += `Password: <code>${user.password}</code><br>`;
+                html += `Role: <strong>${user.role.toUpperCase()}</strong>`;
+                html += `</div>`;
+            });
+            
+            output.innerHTML = html;
+        }
+
+        function showSuccess(message) {
+            const successDiv = document.getElementById('success');
+            successDiv.textContent = '✓ ' + message;
+            successDiv.style.display = 'block';
+            setTimeout(() => {
+                successDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        // Check users on page load
+        window.onload = checkUsers;
+    </script>
+</body>
+</html>

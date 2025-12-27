@@ -1,0 +1,149 @@
+<div class="home">
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Welcome to VSP Electronics</h1>
+        <p>Your One-Stop Shop for Drone Parts, Robotics & DIY Electronics</p>
+        <a routerLink="/shop" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section class="categories-section">
+    <div class="container">
+      <h2 class="section-title">Featured Categories</h2>
+      <div class="category-grid">
+        <div class="category-card" *ngFor="let category of categories">
+          <a [routerLink]="['/category', category.slug]">
+            <div class="category-image">
+              <img [src]="category.image" [alt]="category.name" onerror="this.src='assets/images/placeholder.jpg'">
+            </div>
+            <div class="category-info">
+              <h3>{{ category.name }}</h3>
+              <p>{{ category.productCount }} products</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section with Tabs -->
+  <section class="products-section">
+    <div class="products-header">
+      <h2 class="products-title">Products</h2>
+      <div class="products-tabs">
+        <button 
+          class="tab-btn" 
+          [class.active]="activeProductTab === 'featured'"
+          (click)="setProductTab('featured')">
+          FEATURED
+        </button>
+        <button 
+          class="tab-btn" 
+          [class.active]="activeProductTab === 'new'"
+          (click)="setProductTab('new')">
+          NEW
+        </button>
+        <button 
+          class="tab-btn" 
+          [class.active]="activeProductTab === 'topSellers'"
+          (click)="setProductTab('topSellers')">
+          TOP SELLERS
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="product-grid">
+        <app-product-card 
+          *ngFor="let product of displayedProducts" 
+          [product]="product"
+          (loginRequired)="onLoginRequired($event)">
+        </app-product-card>
+      </div>
+      <div class="text-center">
+        <a routerLink="/shop" class="btn btn-secondary">View All Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Fast Shipping</h3>
+          <p>Quick delivery across India</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Secure Payment</h3>
+          <p>100% secure transactions</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 Support</h3>
+          <p>Dedicated customer service</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-undo"></i>
+          <h3>Easy Returns</h3>
+          <p>Hassle-free return policy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Reviews Section -->
+  <section class="reviews-section">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <div class="reviews-content">
+        <div class="review-card">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Excellent service and quality products. Best place for drone and robotics parts!"</p>
+          <h4>- Rajesh Kumar</h4>
+        </div>
+        <div class="review-card">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Great collection of DIY kits. Fast delivery and responsive support team."</p>
+          <h4>- Priya Sharma</h4>
+        </div>
+        <div class="review-card">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>"High quality products at competitive prices. Highly recommended!"</p>
+          <h4>- Amit Patel</h4>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top: 30px;">
+        <a href="https://www.google.com/maps" target="_blank" class="btn btn-primary">
+          View All Reviews
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Auth Modal -->
+<app-auth-modal *ngIf="showAuthModal" [message]="authModalMessage" (close)="closeAuthModal()"></app-auth-modal>
